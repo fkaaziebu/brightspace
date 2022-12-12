@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;800&display=swap');
 /* font-family: 'Open Sans', sans-serif; */
 
+/* Color values */
+:root {
+    --first: #c78c06;
+    --second: #ffe6ac;
+    --third: #222;
+    --white: #ffffff;
+}
+
 /* CSS reset code */
 * {
     box-sizing: border-box;

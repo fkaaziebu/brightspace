@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
   </head>
 
   <body>
@@ -48,28 +49,40 @@
 
     <!--Main-->
 
-    <div>
-      <img src="images/main-banner.jpg" alt="Main Banner" />
-      <h1>Welcome to Three Star Media</h1>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
-        praesentium vero impedit cum, maiores maxime ab enim eligendi eos
-        accusantium quidem illum fugit tenetur? Unde quasi expedita consequuntur
-        aliquid quod!
-      </p>
-      <button>
-        Connect with us <ion-icon name="caret-forward-outline"></ion-icon>
-      </button>
+    <div class="banner main_banner">
+      <div class="banner_info">
+        <h1 class="banner_title">Welcome to Three Star Media</h1>
+        <p class="banner_msg">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero veniam a est optio quia eligendi autem, sapiente 
+            nisi necessitatibus illo quae dolorem fugiat accusamus quasi enim architecto dolores voluptatem iste eaque. 
+            Distinctio ab, quaerat sint ratione eius rerum vel ea non libero deserunt hic vero sequi corporis possimus debitis 
+            obcaecati asperiores at harum? Optio distinctio eligendi fuga cupiditate mollitia! Cumque quidem repellendus recusandae 
+            consequatur. Dolorum repellat quaerat delectus voluptate illo ducimus beatae qui itaque quod unde! Natus omnis dolor, 
+            vero repudiandae, eos corrupti officia temporibus odio quas ullam illum minima labore voluptatem quasi error! Deleniti 
+            nobis eaque nostrum vero quasi.
+        </p>
+        <button class="banner_btn">
+            Connect with us <ion-icon class="left_icon" name="play"></ion-icon>
+        </button>
+      </div>
     </div>
 
     <!--Main End-->
 
     <!--About Us-->
 
-    <div>
-      <img src="images/about-us.jpg" alt="About Us" />
-      <h2>About Us</h2>
-      <p>
+    <div class="card">
+      <img class="card_img" src="images/about-us.jpg" alt="About Us" />
+      <h2 class="card_title">About Us</h2>
+      <p class="card_msg">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam rerum
+        eius aliquam dolor amet fugiat voluptatum veritatis possimus a
+        doloribus? Suscipit enim cum facilis, fugit id dolorem! Id, hic minus.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam rerum
+        eius aliquam dolor amet fugiat voluptatum veritatis possimus a
+        doloribus? Suscipit enim cum facilis, fugit id dolorem! Id, hic minus.
+      </p>
+      <p class="card_msg mt-15">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam rerum
         eius aliquam dolor amet fugiat voluptatum veritatis possimus a
         doloribus? Suscipit enim cum facilis, fugit id dolorem! Id, hic minus.
@@ -83,75 +96,75 @@
 
     <!--Our Services-->
 
-    <div class="services">
-      <h2>Our Services</h2>
-      <div>
-        <img src="images/digital.jpg" alt="Digital Information" />
-        <h3>Digital Information</h3>
-        <p>
+    <div class="section">
+      <h2 class="section_title">Our Services</h2>
+      <div class="card">
+        <img class="card_img" src="images/digital.jpg" alt="Digital Information" />
+        <h3 class="card_title">Digital Information</h3>
+        <p class="card_msg">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
           praesentium vero impedit cum, maiores maxime ab enim eligendi eos
           accusantium quidem illum fugit tenetur? Unde quasi expedita
           consequuntur aliquid quod!
         </p>
-        <button>
-          Digital Plans <ion-icon name="caret-forward-outline"></ion-icon>
+        <button class="card_btn">
+          Digital Plans <ion-icon class="left_icon" name="play"></ion-icon>
         </button>
       </div>
 
-      <div>
-        <img src="images/marketing.jpg" alt="Marketing" />
-        <h3>Marketing</h3>
-        <p>
+      <div class="card">
+        <img class="card_img" src="images/marketing.jpg" alt="Marketing" />
+        <h3 class="card_title">Marketing</h3>
+        <p class="card_msg">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
           praesentium vero impedit cum, maiores maxime ab enim eligendi eos
           accusantium quidem illum fugit tenetur? Unde quasi expedita
           consequuntur aliquid quod!
         </p>
-        <button>
-          Marketing Plans <ion-icon name="caret-forward-outline"></ion-icon>
+        <button class="card_btn">
+          Marketing Plans <ion-icon class="left_icon" name="play"></ion-icon>
         </button>
       </div>
 
-      <div>
-        <img src="images/video.jpg" alt="Video Production" />
-        <h3>Video Production</h3>
-        <p>
+      <div class="card">
+        <img class="card_img" src="images/video.jpg" alt="Video Production" />
+        <h3 class="card_title">Video Production</h3>
+        <p class="card_msg">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
           praesentium vero impedit cum, maiores maxime ab enim eligendi eos
           accusantium quidem illum fugit tenetur? Unde quasi expedita
           consequuntur aliquid quod!
         </p>
-        <button>
-          Video Plans <ion-icon name="caret-forward-outline"></ion-icon>
+        <button class="card_btn">
+          Video Plans <ion-icon class="left_icon" name="play"></ion-icon>
         </button>
       </div>
 
-      <div>
-        <img src="images/web.jpg" alt="Web Development" />
-        <h3>Web Development</h3>
-        <p>
+      <div class="card">
+        <img class="card_img" src="images/web.jpg" alt="Web Development" />
+        <h3 class="card_title">Web Development</h3>
+        <p class="card_msg">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
           praesentium vero impedit cum, maiores maxime ab enim eligendi eos
           accusantium quidem illum fugit tenetur? Unde quasi expedita
           consequuntur aliquid quod!
         </p>
-        <button>
-          Web Plans <ion-icon name="caret-forward-outline"></ion-icon>
+        <button class="card_btn">
+          Web Plans <ion-icon class="left_icon" name="play"></ion-icon>
         </button>
       </div>
 
-      <div>
-        <img src="images/print.jpg" alt="Print" />
-        <h3>Print</h3>
-        <p>
+      <div class="card">
+        <img class="card_img" src="images/print.jpg" alt="Print" />
+        <h3 class="card_title">Print</h3>
+        <p class="card_msg">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
           praesentium vero impedit cum, maiores maxime ab enim eligendi eos
           accusantium quidem illum fugit tenetur? Unde quasi expedita
           consequuntur aliquid quod!
         </p>
-        <button>
-          Print Plans <ion-icon name="caret-forward-outline"></ion-icon>
+        <button class="card_btn">
+          Print Plans <ion-icon class="left_icon" name="play"></ion-icon>
         </button>
       </div>
     </div>
@@ -160,32 +173,33 @@
 
     <!--Our Vision-->
 
-    <div>
-      <img src="images/vision.jpg" alt="Our Vision" />
-      <h3>Our Vision</h3>
-      <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
-        praesentium vero impedit cum, maiores maxime ab enim eligendi eos
-        accusantium quidem illum fugit tenetur? Unde quasi expedita consequuntur
-        aliquid quod!
-      </p>
-      <button>
-        Learn More<ion-icon name="caret-forward-outline"></ion-icon>
-      </button>
+    <div class="banner vision">
+        <div class="banner_info">
+            <h3 class="banner_title">Our Vision</h3>
+            <p class="banner_msg">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
+                praesentium vero impedit cum, maiores maxime ab enim eligendi eos
+                accusantium quidem illum fugit tenetur? Unde quasi expedita consequuntur
+                aliquid quod!
+            </p>
+            <button class="banner_btn">
+                Learn More<ion-icon name="caret-forward-outline"></ion-icon>
+            </button>
+        </div>
     </div>
 
     <!--Our Vision End-->
 
     <!--Our Team-->
 
-    <div class="">
-      <h2>Our Team</h2>
-      <div>
-        <img src="images/john.jpg" alt="John Doe" />
-        <h3>John Doe</h3>
-        <h4>CEO and Co-owner</h4>
+    <div class="section team">
+      <h2 class="section_title">Our Team</h2>
+      <div class="card">
+        <img class="card_img" src="images/john.jpg" alt="John Doe" />
+        <h3 class="card_title">John Doe</h3>
+        <h4 class="card_title_2">CEO and Co-owner</h4>
         <hr />
-        <p>
+        <p class="card_msg">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
           praesentium vero impedit cum, maiores maxime ab enim eligendi eos
           accusantium quidem illum fugit tenetur? Unde quasi expedita
@@ -193,12 +207,12 @@
         </p>
       </div>
 
-      <div>
-        <img src="images/bob.jpg" alt="Bob Rite" />
-        <h3>Bob Rite</h3>
-        <h4>CFO and Co-owner</h4>
+      <div class="card">
+        <img class="card_img" src="images/bob.jpg" alt="Bob Rite" />
+        <h3 class="card_title">Bob Rite</h3>
+        <h4 class="card_title_2">CFO and Co-owner</h4>
         <hr />
-        <p>
+        <p class="card_msg">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt
           praesentium vero impedit cum, maiores maxime ab enim eligendi eos
           accusantium quidem illum fugit tenetur? Unde quasi expedita

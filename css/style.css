@@ -7,6 +7,7 @@
     --first: #c78c06;
     --second: #ffe6ac;
     --third: #222;
+    --fourth: rgba(34, 34, 34, 0.712);
     --white: #ffffff;
 }
 
@@ -17,9 +18,14 @@
     padding: 0;
     font-family: 'Open Sans', sans-serif;
 }
+img-fluid {
+    width: 100vw;
+}
 
 /* Utilities */
-
+.mt-15 {
+ margin-top: 15px;
+}
 /* End of Utilities */
 
 
@@ -68,6 +74,118 @@
     height: 100%;
     width: 100%;
     padding: 10px;
+}
+
+/* Banner */
+.banner {
+    padding: 30px 0px;
+}
+.main_banner {
+    background-image: url("../images/main-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.banner_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 30%;
+    padding: 50px 10px;
+    margin: 20px;
+    background-color: var(--fourth);
+}
+.banner_title {
+    font-size: 300%;
+    line-height: 50px;
+    margin-bottom: 40px;
+    color: var(--white);
+}
+.banner_msg {
+    color: var(--white);
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 100%;
+}
+.banner_btn {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px 15px;
+    background-color: var(--first);
+    border: 0;
+    cursor: pointer;
+}
+.left_icon {
+    margin-left: 10px;
+}
+
+/* Cards */
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--second);
+    padding: 30px;
+    margin: 10px 0px;
+}
+.card_img {
+    width: 90vw;
+}
+.card_title {
+    font-weight: 600;
+    font-size: 3em;
+    margin: 30px;
+}
+.card_title_2 {
+    font-weight: 600;
+    font-size: 2em;
+}
+.card_msg {
+    line-height: 30px;
+}
+.card_btn {
+    color: var(--white);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px 15px;
+    background-color: var(--third);
+    border: 0;
+    cursor: pointer;
+}
+
+/* Services */
+.section {
+    padding: 20px;
+}
+.section_title {
+    font-weight: 600;
+    font-size: 3em;
+    margin: 30px;
+}
+
+/* Vision */
+.vision {
+    background-image: url("../images/vision.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Our Team */
+.team .card_title {
+    margin-bottom: 0px;
 }
 
 /* Desktop First Styling */

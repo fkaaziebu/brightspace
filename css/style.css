@@ -29,6 +29,11 @@ img-fluid {
 /* End of Utilities */
 
 
+.team, .services {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 /* Mobile First Styling */
 /* Navbar style */
 .nav_list {

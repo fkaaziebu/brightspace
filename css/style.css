@@ -193,6 +193,70 @@ img-fluid {
     margin-bottom: 0px;
 }
 
+/* Form */
+.form_item {
+    display: flex;
+    flex-direction: column;
+}
+.form_label {
+    margin: 15px 0px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.form_field, .form_area {
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    border: 1px solid var(--third);
+    font-size: 20px;
+}
+.form_field {
+}
+.form_btn {
+    color: var(--white);
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: var(--third);
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Table */
+.table {
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+.table_title {
+    background-color: var(--second);
+}
+.table_element {
+    border: 1px solid var(--third);
+    width: 50vw;
+    padding: 20px;
+}
+.table_head {
+    text-align: center;
+}
+
+/* Footer */
+.copyrightext {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: var(--third);
+    color: var(--first);
+    padding: 20px;
+    height: 20vh;
+}
+.copyrightext span {
+    text-decoration: underline;
+}
+
 /* Desktop First Styling */
 @media screen and (min-width: 760px) {
     
